@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora de Área de Quadrado</h1>
+    <label for="lado">Digite o valor do lado do quadrado: </label>
+    <input type="text" id="lado"><br><br>
+
+    <button onclick="calcularArea()">Calcular Área</button><br><br>
+
+    <p>Lado do quadrado informado: <span id="valorLado"></span></p>
+    <p>Área do quadrado: <span id="resultado"></span></p>
+
+    <script>
+function calcularArea() {
+    const lado = parseInt(document.getElementById("lado").value);
+
+    const area = lado * lado;
+
+    document.getElementById("valorLado").innerText = lado;
+    document.getElementById("resultado").innerText = area;
+
+    console.log(`Lado do quadrado informado: ${lado}`);
+    console.log(`Área do quadrado: ${area}`);
+}
+
+    </script>
+</body>
+</html>
