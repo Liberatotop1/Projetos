@@ -1,6 +1,6 @@
 #language: pt
 
-Funcionalidade: Catálogo de cafés
+Funcionalidade: Catálogo de café
     Como um usuário do site, eu quero ver o catálogo de cafés na página principal
     para que eu possa escolher e saber mais sobre os produtos disponíveis
 
