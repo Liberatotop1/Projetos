@@ -1,4 +1,4 @@
-#language: p
+#language: pt
 
 Funcionalidade: Uso de cupons no checkout
 
